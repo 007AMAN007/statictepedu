@@ -1,10 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Title of the document</title>
+    <title>TTK</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body>
-    <h1>This is a heading</h1>
-    <p>This is a paragraph.</p>
+    <header class="site-head">
+      <div class="container">
+        <nav class="site-nav">
+          <div class="site-nav-left row">
+            <div class="col-md-6 col-xs-3">
+              <a aria-current="page" class="site-nav-item" href="/"
+                ><img
+                  src="https://excel.tepedu.dk/home.svg"
+                  class="logoImg"
+                  width="30"
+                  height="37"
+              /></a>
+            </div>
+            <div class="col-md-6 col-xs-3">
+              <div class="dropdown">
+                <button
+                  class="btn btn-secondary dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style="
+                    font-size: 12px;
+                    margin: 0.5em 0;
+                    background-color: #15171a !important;
+                    border-radius: unset !important;
+                    padding: 2px 4px;
+                  "
+                >
+                  Inhold
+                </button>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="dropdownMenuButton1"
+                  style="background-color: #000 !important; border-radius: 0px"
+                >
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="site-main">
+      <div class="container">
+        <section class="post-feed">
+          <a class="post-card" href="/excel-book/"
+            ><header class="post-card-header">
+              <div
+                class="post-card-image"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1542744173-05336fcc7ad4?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fGV4Y2VsfGVufDB8fHx8MTYzMjQ3OTUyNg&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000');
+                "
+              ></div>
+              <div class="post-card-tags">
+                <span class="">Free</span><span class="">, </span
+                ><span class="">Excel</span>
+              </div>
+              <h2 class="post-card-title">Excel book</h2>
+            </header>
+            <section class="post-card-excerpt">
+              Her kan du lære om basal Excel
+            </section>
+            <footer class="post-card-footer">
+              <div class="post-card-footer-left">
+                <div class="post-card-avatar">
+                  <img
+                    class="default-avatar"
+                    src="https://excel.tepedu.dk/images/icons/avatar.svg"
+                    alt="Michael"
+                  />
+                </div>
+                <span>Michael</span>
+              </div>
+            </footer></a
+          ><a class="post-card" href="/post-2/"
+            ><header class="post-card-header">
+              <div
+                class="post-card-image"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDJ8fGV4Y2VsfGVufDB8fHx8MTYzMjMxMTQwNA&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000');
+                "
+              ></div>
+              <div class="post-card-tags">
+                <span class="">Free</span><span class="">, </span
+                ><span class="">Excel</span>
+              </div>
+              <h2 class="post-card-title">Post 2</h2>
+            </header>
+            <section class="post-card-excerpt">
+              Her kan du læse om hvordan du benytter filter
+            </section>
+            <footer class="post-card-footer">
+              <div class="post-card-footer-left">
+                <div class="post-card-avatar">
+                  <img
+                    class="default-avatar"
+                    src="https://excel.tepedu.dk/images/icons/avatar.svg"
+                    alt="Michael"
+                  />
+                </div>
+                <span>Michael</span>
+              </div>
+            </footer></a
+          ><a class="post-card" href="/excel-3/"
+            ><header class="post-card-header">
+              <div
+                class="post-card-image"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1513258496099-48168024aec0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDh8fHN0dWRlbnR8ZW58MHx8fHwxNjMyMzExNjQ2&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000');
+                "
+              ></div>
+              <div class="post-card-tags">
+                <span class="">Free</span><span class="">, </span
+                ><span class="">Excel</span>
+              </div>
+              <h2 class="post-card-title">Excel 3</h2>
+            </header>
+            <section class="post-card-excerpt">
+              Her kan du læse om pivot-tabeller
+            </section>
+            <footer class="post-card-footer">
+              <div class="post-card-footer-left">
+                <div class="post-card-avatar">
+                  <img
+                    class="default-avatar"
+                    src="https://excel.tepedu.dk/images/icons/avatar.svg"
+                    alt="Michael"
+                  />
+                </div>
+                <span>Michael</span>
+              </div>
+            </footer></a
+          ><a class="post-card" href="/test-author/"
+            ><header class="post-card-header">
+              <div
+                class="post-card-image"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1564623134065-4b38fff551f4?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDEwfHxleGNlbHxlbnwwfHx8fDE2MzY1NjA2NDY&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000');
+                "
+              ></div>
+              <div class="post-card-tags">
+                <span class="">Free</span><span class="">, </span
+                ><span class="">Excel</span>
+              </div>
+              <h2 class="post-card-title">Test author</h2>
+            </header>
+            <section class="post-card-excerpt">Testing</section>
+            <footer class="post-card-footer">
+              <div class="post-card-footer-left">
+                <div class="post-card-avatar">
+                  <img
+                    class="default-avatar"
+                    src="https://excel.tepedu.dk/images/icons/avatar.svg"
+                    alt="Michael"
+                  />
+                </div>
+                <span>Michael</span>
+              </div>
+            </footer></a
+          ><a class="post-card" href="/single-podcast/"
+            ><header class="post-card-header">
+              <div class="post-card-tags">
+                <span class="">Free</span><span class="">, </span
+                ><span class="">Excel</span>
+              </div>
+              <h2 class="post-card-title">Single Podcast</h2>
+            </header>
+            <section class="post-card-excerpt">
+              Here's the new design for single podcast. Here's the new design
+              for single podcast. Here's the new design for single podcast.
+              Here's the new design for single podcast. Here's the new design
+              for single podcast. This is new design. This is new design. This
+              is new design. This is new design. This is new design. This is new
+              design.
+            </section>
+            <footer class="post-card-footer">
+              <div class="post-card-footer-left">
+                <div class="post-card-avatar">
+                  <img
+                    class="default-avatar"
+                    src="https://excel.tepedu.dk/images/icons/avatar.svg"
+                    alt="aman sharma"
+                  />
+                </div>
+                <span>aman sharma</span>
+              </div>
+            </footer></a
+          >
+        </section>
+      </div>
+    </main>
+    <footer class="site-foot">
+      <div class="site-foot-nav container">
+        <div class="dropdown helpDropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle helpBtn"
+            type="button"
+            id="dropdownMenuButton1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Hjælp?
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li>
+              <a
+                class="dropdown-item"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal3"
+                href="#"
+                >Hjælp til adgang?</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal3"
+                href="#"
+                >Hjælp til login?</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal3"
+                href="#"
+                >Hjælp til password?</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal3"
+                href="#"
+                >Hjælp til afmelding?</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal3"
+                href="#"
+                >Hjælp til kort skift?</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/term-service" target="_blank"
+                >Abonnementsbetingelser</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/privacy-policy" target="_blank"
+                >Privatlivspolitik</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="mailto: excel@tepedu.com"
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
